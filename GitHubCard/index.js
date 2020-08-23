@@ -3,7 +3,9 @@
     (replacing the placeholder with your Github name):
     https://api.github.com/users/<your name>
 */
-
+const lambdaPeople = [
+  axios.get(`https://api.github.com/users/josephmjohnston`)
+];
 /*
   STEP 2: Inspect and study the data coming back, this is YOUR
     github info! You will need to understand the structure of this
@@ -50,6 +52,13 @@ const followersArray = [];
     </div>
 */
 
+function createCard(person) {
+  const card = document.createElement("div");
+  const image = document.createElement("img");
+  const info = document.createElement("div");
+  const name = document.createElement("h3");
+  const = document.createElement();
+}
 /*
   List of LS Instructors Github username's:
     tetondan
